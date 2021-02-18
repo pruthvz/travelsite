@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap"); */
+
+:root {
+  --purple: rgba(108, 99, 255, 255);
+  --poppins: "Poppins", sans-serif;
+}
+/* #6c63ff */
+.logoicon {
+  color: #6c63ff;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR STYLES HERE */
+.navbar-toggler {
+  border: none;
+  font-size: 25px;
+}
+
+.navbar-nav > li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+  padding-right: 30px;
+  transition: all 0.12s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: #6c63ff !important;
+}
+
+.navbar-brand img {
+  height: 38px;
+}
+
+/* FULL IMAGE HEADER  */
+.page-header {
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  color: #fff;
+  padding-bottom: 45px;
+}
+
+.light {
+  background: #fff;
+}
+
+.page-header .sitetitle {
+  font-weight: 600;
+}
+
+/* COMPANIES SECTION STYLE */
+.companies img {
+  opacity: 0.7;
+}
+
+/* SECTION 2 STYLING HERE */
+.chooseUs {
+  font-family: var(--poppins) !important;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.chooseUs h2 {
+  font-weight: 600;
+}
+
+.chooseUs .heading {
+  padding-bottom: 80px;
+}
+.chooseUs ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.chooseUs ul li {
+  padding-left: 1rem;
+  padding-bottom: 10px;
+}
+.chooseUs ul li i {
+  font-size: 20px;
+  padding-right: 2px;
+}
+
+/* IMAGE SLIDER */
+.img-slider {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+.img-slider .col-md-3 {
+  padding: 50px;
+}
+.img-slider .imgTitle {
+  padding-bottom: 20px;
+}
+/* SERVICES PAGE */
+.services {
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+.services .card {
+  margin-left: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.services .card:hover {
+  cursor: unset;
+  background: #6c63ff !important;
+}
+
+.services .serviceInfo {
+  padding-bottom: 60px;
+}
+
+/* FOOTER STYLE */
+
+.footer .column a {
+  font-size: 25px;
+  padding-left: 7px;
+  color: rgba(208, 208, 208, 0.8);
+}
+.footer .column a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer ul li i {
+  color: #39cca0;
+  padding-right: 10px;
+}
+
+/* FOOTER STYLE END  */
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+  padding-top: 160px;
+  padding-bottom: 200px;
+  margin: 0;
+}
+
+#testimonials {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#testimonials .bubble {
+  position: relative;
+  width: 48%;
+  font-size: 1em;
+  font-family: "lato";
+  line-height: 1.6em;
+}
+
+#testimonials .bubble:after {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  width: 0px;
+  height: 0px;
+  content: "";
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #f1f1f1;
+}
+
+#testimonials .text {
+  position: relative;
+  z-index: 1;
+  background: #f1f1f1;
+  padding: 20px 25px;
+  font-style: italic;
+  color: #222;
+}
+
+#testimonials .name {
+  position: relative;
+  margin-left: 90px;
+  color: #222;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 701px) and (min-width: 0px) {
+  #testimonials {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #testimonials .bubble {
+    width: 100%;
+  }
+  #testimonials .bubble:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+/* SLIDER */
+
+/* BOOK NOW BTN */
+.bookNow .container .bookBtn {
+  background: #6b63ffa1 !important;
+  width: 175px;
+  height: 65px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  outline: none !important;
+  box-shadow: none !important;
+  border: #6c63ff;
+}
+
+.bookNow .container .bookBtn:hover {
+  color: white !important;
+  background: #675fffea !important;
+
+  border: 1px solid #6b63ff;
+}
+
+/* TESTIMONALS */
+.testimonials-clean {
+  color: #313437;
+  /* background-color:#767676; */
+}
+
+.testimonials-clean p {
+  color: #7d8285;
+}
+
+.testimonials-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .testimonials-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.testimonials-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+  margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+  padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .testimonials-clean .item {
+    height: 220px;
+  }
+}
+
+.testimonials-clean .item .box {
+  padding: 30px;
+  background-color: rgb(230, 230, 230);
+  position: relative;
+}
+
+.testimonials-clean .item .box:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-width: 12px 15px;
+  border-top-color: rgb(230, 230, 230);
+}
+
+.testimonials-clean .item .author {
+  margin-top: 28px;
+  padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: inherit;
+}
+
+.testimonials-clean .item .title {
+  font-size: 13px;
+  color: #6b63ffbf;
+}
+
+.testimonials-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.testimonials-clean .item img {
+  max-width: 40px;
+  float: left;
+  margin-right: 12px;
+  margin-top: -5px;
+}

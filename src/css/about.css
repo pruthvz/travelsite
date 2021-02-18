@@ -1,0 +1,68 @@
+#section {
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+.masthead {
+  padding-bottom: 120px;
+}
+
+/* ABOUT ME THE FOUNDER */
+.aboutme {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.titleInfo {
+  padding-top: 20px;
+}
+.titleInfo p {
+  position: relative;
+  top: -10px;
+}
+
+.socialIcons {
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.socialIcons a i {
+  padding: 10px;
+  font-size: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIcons a i:hover {
+  transform: scale(1.4);
+}
+
+/* OUR TEAM STYLE */
+
+.team {
+  padding-bottom: 200px !important;
+}
+
+.team h1 {
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+.avatar img {
+  position: relative;
+  width: 225px;
+  transition: all 0.3s ease-in-out;
+}
+.avatar img:hover {
+  /* transform: scale(1.1); */
+  transform: translate(0, -10px);
+}
+
+.team {
+  padding-bottom: 10vmin;
+  padding: 10vmin;
+}
+
+.bawkbox-powered-by {
+  display: none !important;
+}

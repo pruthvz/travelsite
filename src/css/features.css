@@ -1,0 +1,42 @@
+.locations {
+  padding-top: 50px;
+}
+
+.locations .card {
+  transition: all 0.3s ease-in-out;
+}
+
+.locations .card:hover {
+  transform: scale(1.05);
+}
+
+.locations .card .offerTag {
+  position: relative;
+  animation: myfirst 5s 1;
+
+  /* animation-direction: alternate; */
+}
+
+@keyframes myfirst {
+  0% {
+    background: red;
+    left: 180px;
+    top: 0px;
+  }
+  25% {
+    background: rgb(255, 217, 0);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.locations .card {
+  border: none !important;
+}
+.like-dislike-powered-by {
+  display: none !important;
+}
+
+.like-dislike-alert p {
+  color: white;
+}
