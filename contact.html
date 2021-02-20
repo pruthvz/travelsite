@@ -107,51 +107,72 @@
     <!-- second form -->
 
     <!-- CONTACT FORM -->
-    <section class="contact text-dark" data-aos="fade-up">
-      <div class="contact-in">
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d268.4256195644586!2d-0.298233700437351!3d51.54971992744072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761230fa621f8f%3A0x1dafe694aef73db2!2s66B%20Ealing%20Rd%2C%20Wembley%20HA0%204TH!5e0!3m2!1sen!2suk!4v1613576116348!5m2!1sen!2suk"
-            width="100%"
-            height="auto"
-            frameborder="0"
-            style="border: 0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
+    <div
+      class="container-fluid p-5 bg-white text-dark"
+      style="padding-top: 120px !important"
+      id="about"
+    >
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.0632008894626!2d-0.29822850699063347!3d51.549693373443006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761230fa621f8f%3A0x1dafe694aef73db2!2s66B%20Ealing%20Rd%2C%20Wembley%20HA0%204TH!5e0!3m2!1sen!2suk!4v1613843034043!5m2!1sen!2suk"
+              frameborder="0"
+            ></iframe>
+          </div>
         </div>
-        <div class="contact-form">
-          <h1 class="text-center font-weight-light">Get in Touch</h1>
-          <form autocomplete="off">
-            <input
-              type="text"
-              placeholder="Name"
-              class="contact-form-text"
-              autocomplete="off"
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              class="contact-form-text"
-              autocomplete="off"
-            />
-            <input
-              type="text"
-              placeholder="Phone Number"
-              class="contact-form-text"
-              autocomplete="off"
-            />
-
-            <textarea
-              placeholder="Message"
-              class="contact-form-textarea"
-            ></textarea>
-            <input type="submit" name="Submit" class="contact-btn" />
-          </form>
+        <div class="col-md-12 col-lg-6 p-4">
+          <h1 class="display-5" style="margin-left: 32px; line-height: 0px">
+            Get in Touch
+          </h1>
+          <!-- Start BawkBox Code-->
+          <script data-sil-id="602ec3603c0d09001366accb">
+            var loadWidget = function () {
+              var d = document,
+                w = window,
+                l = window.location,
+                p = l.protocol == "file:" ? "http://" : "//";
+              if (!w.WS) w.WS = {};
+              c = w.WS;
+              var m = function (t, o) {
+                var e = d.getElementsByTagName("script");
+                e = e[e.length - 1];
+                var n = d.createElement(t);
+                if (t == "script") {
+                  n.async = true;
+                }
+                for (k in o) n[k] = o[k];
+                e.parentNode.insertBefore(n, e);
+              };
+              m("script", {
+                src:
+                  p +
+                  "bawkbox.com/widget/contact/602ec3603c0d09001366accb?page=" +
+                  encodeURIComponent(l + ""),
+                type: "text/javascript",
+              });
+              c.load_net = m;
+            };
+            if (window.Squarespace) {
+              document.addEventListener("DOMContentLoaded", loadWidget);
+              setTimeOut(function () {
+                document.addEventListener("DOMContentLoaded", loadWidget);
+              }, 3000);
+            } else {
+              loadWidget();
+            }
+          </script>
+          <div
+            class="sil-widget-contact sil-widget"
+            id="sil-widget-602ec3603c0d09001366accb"
+          >
+            <a href="//bawkbox.com/install/contact">Contact Box</a>
+          </div>
+          <!-- End BawkBox Code-->
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- footer -->
     <footer class="footer">
