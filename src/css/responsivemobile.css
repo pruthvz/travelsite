@@ -22,10 +22,20 @@
   .navbar-brand {
     padding: 10px;
   }
+  .masthead h2 {
+    padding-top: 50px !important;
+  }
+  .services .card {
+    margin-left: 12px;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 @media (max-width: 800px) {
   .company {
     padding: 0;
   }
+}
+.bawkbox-powered-by {
+  display: none !important;
 }
