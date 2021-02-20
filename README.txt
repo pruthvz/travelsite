@@ -31,6 +31,3 @@ TO GET THE RECENT UPDATES
 
 =========================================
 
-
-ronitsuryakumar@diutravels.com
-travel#10
